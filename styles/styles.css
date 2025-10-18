@@ -1,55 +1,73 @@
+body{
+    font-family: var('Inter', sans-serif);
+    margin: 0;
+    padding: 0;
+}
+
 table, td{
     border: 5px solid black;
 }
 table{
     margin: auto;
-    width: 80vw;
-    height: 70vh;
+    width: 95vw;
+    height: 95vh;
     border-collapse: collapse;
 }
-td{
-    height: 8vh;
+td, th{
     text-align: center;
-    padding: 5px;
+    padding: var(6px);
+    vertical-align: middle;
 }
 th{
     border: 5px solid black;
-    background-color: rgb(255, 72, 109);
+    background-color: #5B21B6; /* encabezado: violeta oscuro */
+    color: #ffffff;
     height: 15vh;
 }
 #recreo{
-    background-color: rgba(151, 151, 151, 0.349);
+    background-color: #F3F4F6; /* recreo: gris claro, neutral */
+    color: #0f172a;
     text-align: center;
 }
 #dias{
-    background-color: rgba(255, 98, 98, 0.781);
+    background-color: #2563EB; /* fila días: azul */
+    color: #ffffff;
 }
 .Digitalizacion{
-    background-color: rgb(255, 207, 87);
+    background-color: #FBBF24; /* amarillo/ámbar (claro) */
+    color: #0f172a;
 }
 .Programacion{
-    background-color: rgb(152, 233, 253);
+    background-color: #0EA5A4; /* cian/teal */
+    color: #ffffff;
 }
 .SistemasInf{
-    background-color: rgb(167, 253, 167);
+    background-color: #10B981; /* verde (sistemas) */
+    color: #ffffff;
 }
 .IPE{
-    background-color: pink;
+    background-color: #DB2777; /* rosa/rosa fuerte (itinerario) */
+    color: #ffffff;
 }
 .BaseDatos{
-    background-color: rgb(177, 117, 255);
+    background-color: #7C3AED; /* morado (bases de datos) */
+    color: #ffffff;
 }
 .EntornosDes{
-    background-color: coral;
+    background-color: #F97316; /* naranja (entornos) */
+    color: #ffffff;
 }
 .Sostenibilidad{
-    background-color: rgba(255, 63, 181, 0.884);
+    background-color: #84CC16; /* lima/verde claro (sostenibilidad) */
+    color: #0f172a;
 }
 .LenguajeMarca{
-    background-color: rgb(255, 255, 150);
+    background-color: #FEF3C7; /* crema claro */
+    color: #92400E;
 }
 .Horas{
-    background-color: rgba(95, 95, 253, 0.404);
+    background-color: #EEF2FF; /* columna de horas: suave lavanda */
+    color: #3730A3;
 }
 /* p{
     margin: 50px;
