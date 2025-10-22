@@ -18,9 +18,10 @@ td, th{
     vertical-align: middle;
 }
 td{
-    font-size: 3vh;
-    font-size: 1.6vw;
     width:  1.5vw;
+    height: 1vh;
+    /*font-size: 1.5vh;*/
+    font-size: 1.1vw;
 } 
 th{
     background-color: #5B21B6; /* encabezado: violeta oscuro */
